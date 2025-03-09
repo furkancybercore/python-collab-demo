@@ -56,3 +56,16 @@ def greet(user):
     return f"Welcome, {user}! We are glad to see you."
 
 print(greet(name))
+
+# main.py (Person2 adds file operations)
+
+# Write and Read File Example
+with open("sample.txt", "w") as f:
+    f.write("Hello from Person2!")
+
+try:
+    with open("sample.txt", "r") as f:
+        content = f.read()
+    print(f"File Content: {content}")
+except FileNotFoundError:
+    print("File not found!")

@@ -69,3 +69,9 @@ try:
     print(f"File Content: {content}")
 except FileNotFoundError:
     print("File not found!")
+
+# main.py (Person2 adds string slicing examples)
+
+sample_text = "Git Collaboration Example"
+print(sample_text[0:3])         # String slicing: prints first three characters
+print(sample_text.lower().strip())  # Converts to lower case and trims whitespace

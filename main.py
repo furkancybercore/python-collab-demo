@@ -41,3 +41,10 @@ counter = 0
 while counter < 3:       # While loop to print counter
     print(f"Counter: {counter}")
     counter += 1
+
+# main.py (Person2 adds error handling)
+
+try:
+    value = int(input("Enter a number: "))  # Convert input to integer
+except ValueError:
+    print("That's not a valid number!")

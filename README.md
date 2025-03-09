@@ -28,7 +28,7 @@ Assume the repository already exists and has a basic `main.py` file in the `main
 
 ```bash
 git clone https://github.com/furkancybercore/python-collab-demo.git  # Clone the remote repo locally.
-git cd python-collab-demo                                      # Navigate into the project folder.
+cd python-collab-demo                                      # Navigate into the project folder.
 ```
 
 ---

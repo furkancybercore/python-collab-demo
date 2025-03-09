@@ -386,3 +386,5 @@ print(sample_text.lower().strip())
 - **Pull Requests (PR):** After a push, go to the GitHub website, create a PR for the branch (e.g., Person1’s or Person2’s branch) to merge into `main`.
 - **Code Review & Merge:** Get the code reviewed, then merge the PR into `main` on GitHub.
 - **Sync Work:** Other developers should pull the latest merged changes from `main` to ensure they are working on the most updated code.
+
+Happy Coding and Collaborating!

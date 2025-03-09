@@ -78,7 +78,9 @@ Before starting work, Person2 ensures they have the latest code following the PR
 ```bash
 git checkout main  # Switch to the main branch
 git pull           # Update local main with the latest merged changes from GitHub
-git checkout -b person2  # Creates and switches to branch 'person2'
+git branch person2  # Creates to branch 'person2'
+git checkout person2  # Switches to branch 'person2'
+
 ```
 
 Person2 adds new Python content (e.g., dictionaries and sets):

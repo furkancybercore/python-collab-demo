@@ -25,3 +25,12 @@ unique_numbers = {1, 2, 3, 2, 1}  # Sets automatically remove duplicates
 unique_numbers.add(4)
 print(f"Person Info: {person_info}")
 print(f"Unique Numbers: {unique_numbers}")
+
+# main.py (update by Person1)
+
+# If-Else Example
+if age >= 18:
+    status = "Adult"
+else:
+    status = "Minor"
+print(f"Status: {status}")

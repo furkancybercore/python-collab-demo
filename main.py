@@ -34,3 +34,10 @@ if age >= 18:
 else:
     status = "Minor"
 print(f"Status: {status}")
+
+# main.py (Person1 adds additional code)
+
+counter = 0
+while counter < 3:       # While loop to print counter
+    print(f"Counter: {counter}")
+    counter += 1

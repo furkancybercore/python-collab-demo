@@ -48,3 +48,11 @@ try:
     value = int(input("Enter a number: "))  # Convert input to integer
 except ValueError:
     print("That's not a valid number!")
+
+# main.py (Person1 updates the greeting function)
+
+def greet(user):
+    # Updated greeting function with a personalized message
+    return f"Welcome, {user}! We are glad to see you."
+
+print(greet(name))

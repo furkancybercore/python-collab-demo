@@ -41,6 +41,10 @@ Person1 starts work by creating a dedicated branch and adding initial Python bas
 ```bash
 git checkout -b person1  # Creates and switches to branch 'person1'
 ```
+Note: deleting a brach; 
+```bash
+git branch -d branch_name
+```
 
 Update `main.py` with initial Python code:
 ```python
